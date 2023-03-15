@@ -443,7 +443,7 @@ def create(ln):
 
 
 def help():
-    for line in open('resource/linalg/help.txt', 'r').readlines():
+    for line in open('help.txt', 'r').readlines():
         print(line, end='')
 
 
