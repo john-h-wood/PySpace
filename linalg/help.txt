@@ -1,0 +1,64 @@
+OBJECT LINEAR ALGEBRA CALCULATOR (OLAC)
+
+HELP ===========================================================================
+With this program, I try to demonstrate a rigid approach to mathematics.
+This shows how one can come to think about the subject, and helps in
+creating error-free code. The goal of this program is not efficiency,
+but elegance. Everything is treated as an object, which has associated
+values. For example, the Vector object has a list of instances of the
+Number object: its components. Functions are computations which assign
+output objects to input objects. For example, the function
+f: Number -> Number defined by f(x) = 1 assigns the number 1 to all
+input numbers.
+
+The details of the objects that OLAC supports are:
+
+Type          Attributes
+
+Number        Value (float)
+Text          Value (string)
+Vector        Components (list of instances of Number)
+Matrix        Entries (list of lists of instances of Number)
+Error         Message (string)
+
+Note, an instance of the Error object is created when an error occurs
+in computation. For example, passing a number as the input to a function
+only defined for vectors will yield an error. In this sense, OLAC
+treats all functions as being defined for all objects, possibly yielding
+errors for some objects.
+
+The details of the functions that OLAC supports are detailed below.
+For writing convenience, functions are split along input types.
+For example, Number Addition is separated from Vector Addition.
+However, OLAC treats each function type as having multiple input types.
+OLAC considers Addition as a single function
+with input type Number/Number or Vector/Vector.
+
+Name                              Code            Input type            Output type
+Type                              type(o)         Object                Text
+Number Addition                   add(n, m)       Number/Number         Number
+Vector Addition                   add(v, u)       Vector/Vector         Vector
+Matrix Addition                   add(A, B)       Matrix/Matrix         Matrix
+Number Subtraction                sub(n, m)       Number/Number         Number
+Vector Subtraction                sub(v, u)       Vector/Vector         Vector
+Matrix Subtraction                sub(A, B)       Matrix/Matrix         Matrix
+Number Multiplication             mul(n, m)       Number/Number         Number
+Matrix-Vector Multiplication      mul(M, v)       Matrix/Vector         Vector
+Matrix-Matrix Multiplication      mul(A, B)       Matrix/Matrix         Matrix
+Number Division                   div(n, m)       Number/Number         Number
+Exponentiation                    pow(n, m)       Number/Number         Number
+Norm                              norm(v)         Vector                Number
+Absolute Value                    abs(n)          Number                Number
+Dot Product                       dot(v, u)       Vector/Vector         Number
+Component                         comp(v, n)      Vector/Number         Number
+Entry                             entry(M, n, m)  Matrix/Number/Number  Number
+Identity Matrix                   I(n)            Number                Matrix
+Zero Vector                       z(n)            Number                Vector
+Zero Matrix                       Z(n)            Number                Matrix
+Trace                             tr(M)           Matrix                Number
+Latex Matrix                      latex(m, t)     Matrix/Text           Text
+Latex Vector                      latex(v, t)     Vector/Text           Text
+
+================================================================================
+
+
