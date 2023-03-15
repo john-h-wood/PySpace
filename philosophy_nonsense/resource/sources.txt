@@ -1,0 +1,33 @@
+nouns 1-127: https://en.wikipedia.org/wiki/Glossary_of_philosophy#B
+adj 1-100: https://www.dailywritingtips.com/100-exquisite-adjectives/
+philosophers 1-110: https://www.famousphilosophers.org/list/
+pictures (in order):
+https://unsplash.com/photos/7vSlK_9gHWA
+https://unsplash.com/photos/9idqIGrLuTE
+https://unsplash.com/photos/py3Uw1QbK6A
+https://unsplash.com/photos/NmPNw8w_a24
+https://unsplash.com/photos/D7bmnvGJA2Q
+https://unsplash.com/photos/IlvY3z4KVCI
+https://unsplash.com/photos/XMcoTHgNcQA
+https://unsplash.com/photos/J10wge01fBo
+https://unsplash.com/photos/ShD7prRVI44
+https://unsplash.com/photos/wlEF6NoGO20
+https://unsplash.com/photos/F90MkaweLYg
+https://unsplash.com/photos/rAqzj79GUmA
+https://unsplash.com/photos/6dN9l-gopyo
+https://unsplash.com/photos/SXqT0n-rZc8
+https://unsplash.com/photos/DzyrFjJbLMg
+https://en.wikipedia.org/wiki/Ancient_Greece#/media/File:Parthenon_(30276156187).jpg
+https://en.wikipedia.org/wiki/Ancient_Greece#/media/File:Map_of_Greece,_Archipelago_and_part_of_Anadoli;_Louis_Stanislas_d'Arcy_Delarochette_1791.jpg
+https://en.wikipedia.org/wiki/The_School_of_Athens#/media/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg
+https://en.wikipedia.org/wiki/Library#/media/File:Duke_Humfrey's_Library_Interior_6,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg
+https://en.wikipedia.org/wiki/Library#/media/File:Egyetemi_Könyvtár4.JPG
+https://en.wikipedia.org/wiki/Library#/media/File:Main_Reading_Room_of_the_New_York_City_Public_Library_on_5th_Avenue_ca,_1910-1920.jpg
+https://www.britannica.com/place/ancient-Greece
+
+
+
+
+
+
+font: https://fonts.google.com/specimen/Zen+Antique?preview.text=Philosohpical%20ramifications&preview.text_type=custom
