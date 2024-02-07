@@ -5,8 +5,8 @@ import scipy.stats as sps
 START_BASE = 2
 END_BASE = 125
 
-# ============ CALCULATION ============
 
+# ============ CALCULATION ============
 def digits_to_decimal(base, digits):
     base_list = np.ones(len(digits)) * base
     base_powers = np.power(base_list, np.arange(len(digits) - 1, -1, -1))
